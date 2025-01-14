@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    background: linear-gradient(45deg,yellow,#F48C06);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contain {
+    border: 3px solid red;
+    width: 35%;
+    height: 470px;
+    border-radius: 20px;
+    display: block;
+}
+.contain h3 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 30px;
+}
+h5 {
+    margin-left: 20px;
+    padding-bottom: 5px;
+}
+input[type="number"]::-webkit-outer-spin-button, input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+.result {
+    margin-left: 16px;
+    width: 90%;
+    outline: none;
+    height: 30px;
+    border-radius: 15px;
+    border: none;
+    padding-left: 20px;
+}
+button {
+    margin: 0 24%;
+    width: 50%;
+    height: 40px;
+    background-color: #F48C06;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border: 3px solid;
+    letter-spacing: 2px;
+    border-radius: 5px;
+}
+.total {
+    text-align: center;
+    margin-top: 20px;
+}
+@media (min-width:320px) and (max-width:600px) {
+    .contain {
+        border: 3px solid red;
+        width: 80%;
+        height: 470px;
+        border-radius: 20px;
+        display: block;
+    }
+}
